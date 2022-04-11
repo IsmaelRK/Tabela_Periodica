@@ -27,7 +27,7 @@ main{
 .botao2{
     width: 100px;
     height: 100px;
-    background-color: #c9bb95;
+    background-color: #f7e7ce;
     border-radius: 15px;
 }
 
@@ -41,7 +41,7 @@ main{
 .botao4{
     width: 100px;
     height: 100px;
-    background-color: #808080;
+    background-color: #696969;
     border-radius: 15px;
 }
 
@@ -167,7 +167,7 @@ main{
 }
 
 .m-color{
-    background-color: #c9bb95;
+    background-color: #f7e7ce;
 }
 
 .g-color{
@@ -175,7 +175,7 @@ main{
 }
 
 .n-color{
-    background-color: #808080;
+    background-color: #696969;
 }
 
 .s-cor{
