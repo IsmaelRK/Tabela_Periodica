@@ -48,6 +48,7 @@ main{
 
 .hov:hover{
     background-color: #c1c9d6;
+    cursor: pointer;
 }
 
 .gas{
