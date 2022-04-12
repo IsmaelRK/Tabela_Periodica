@@ -23,6 +23,7 @@ main{
     height: 100px;
     background-color: #dcdcdc;
     border-radius: 15px;
+    user-select: none;
 }
 
 .botao2{
@@ -30,6 +31,7 @@ main{
     height: 100px;
     background-color: #f7e7ce;
     border-radius: 15px;
+    user-select: none;
 }
 
 .botao3{
@@ -37,6 +39,7 @@ main{
     height: 100px;
     background-color: #92cc6e;
     border-radius: 15px;
+    user-select: none;
 }
 
 .botao4{
@@ -44,10 +47,12 @@ main{
     height: 100px;
     background-color: #696969;
     border-radius: 15px;
+    user-select: none;
 }
 
 .hov:hover{
     background-color: #c1c9d6;
+    transition: 0.5s;
     cursor: pointer;
 }
 
