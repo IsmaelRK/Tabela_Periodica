@@ -1,15 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
 body{
+    text-decoration: none;
     transform: scale(1.0);
+    display: grid;
+    grid-template-columns: 20px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 150px 70px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.boxindr{
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.boxindr2{
+    grid-column: 3;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr3{
+    grid-column: 4;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr4{
+    grid-column: 5;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr5{
+    grid-column: 6;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr6{
+    grid-column: 7;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr7{
+    grid-column: 8;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr8{
+    grid-column: 9;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr9{
+    grid-column: 10;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr10{
+    grid-column: 11;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr11{
+    grid-column: 12;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr12{
+    grid-column: 13;
+    grid-row: 5;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+.boxindr13{
+    grid-column: 14;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr14{
+    grid-column: 15;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr15{
+    grid-column: 16;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr16{
+    grid-column: 17;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr17{
+    grid-column: 18;
+    grid-row: 3;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
+}
+
+.boxindr18{
+    grid-column: 19;
+    grid-row: 2;
+    justify-content: center;
+    align-items: end;
+    font-weight: 900;
 }
 
 header{
+    grid-column: 1/18;
+    grid-row: 1;
     text-align: center;
     font-family: roboto;
     font-weight: 300;
     text-decoration: none;
 }
+
+
 
 main{
     display: flex;
@@ -50,10 +195,174 @@ main{
     user-select: none;
 }
 
+.box{
+    grid-column: 2/3;
+    grid-row: 3;
+    justify-content: end;
+    align-items: end;
+}
+
+.box-end{
+    grid-column: 19;
+    grid-row: 3;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.box2{
+    grid-column: 2/3;
+    grid-row: 4;
+    justify-content: start;
+}
+
+.box-end2{
+    grid-column: 19;
+    grid-row: 4;
+    justify-content: end;
+    align-items: end;
+}
+
+.box3{
+    grid-column: 2/3;
+    grid-row: 5;
+    justify-content: start;
+}
+
+.box-end3{
+    grid-column: 19;
+    grid-row: 5;
+    justify-content: end;
+}
+
+.box4{
+    grid-column: 19;
+    grid-row: 6;
+    justify-content: end;
+}
+
+
+.box5{
+    grid-column: 19;
+    grid-row: 7;
+    justify-content: end;
+}
+
+.box6{
+    grid-column: 19;
+    grid-row: 8;
+    justify-content: end;
+}
+
+.box7{
+    grid-column: 19;
+    grid-row: 9;
+    justify-content: end;
+}
+
+.box8{
+    grid-column: 6/19;
+    grid-row: 10;
+    justify-content: start;
+    align-items: end;
+}
+
+.box9{
+    grid-column: 19;
+    grid-row: 11;
+    justify-content: end;
+}
+
+.box10{
+    grid-column: 19;
+    grid-row: 12;
+    justify-content: end;
+}
+
+.box11{
+    grid-column: 1/18;
+    grid-row: 16;
+    justify-content: center;
+}
+
+.boxind{
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+.boxind2{
+    grid-column: 1;
+    grid-row: 4;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+.boxind3{
+    grid-column: 1;
+    grid-row: 5;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+.boxind4{
+    grid-column: 1;
+    grid-row: 6;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+.boxind5{
+    grid-column: 1;
+    grid-row: 7;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+.boxind6{
+    grid-column: 1;
+    grid-row: 8;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+.boxind7{
+    grid-column: 1;
+    grid-row: 9;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 900;
+
+}
+
+
 .hov:hover{
     background-color: #c1c9d6;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.lat{
+    margin-right: 5px;
 }
 
 .gas{
@@ -74,212 +383,10 @@ main{
 
 .indice{
     font-size: 12px;
-    padding-left: 8px;
-    padding-right: 80px;
-}
-
-.texto{
-    margin-left: 310px;
-}
-
-.lat{
-    padding-right: 40px;
-}
-
-.reconhecidos{
-    margin-left: 222px;
-}
-
-.reconhecidos2{
-    margin-left: 225px;
 }
 
 .p{
     margin: 0;
-}
-
-.right{
-    margin-left: -115%;
-}
-
-.right2{
-    margin-left: 543%;
-}
-
-.right3{
-    margin-left: 343%;
-}
-
-.right4{
-    margin-left: 143%;
-}
-
-.right5{
-    margin-left: -115%;
-}
-
-.right6{
-    margin-left: -915%;
-}
-
-.right7{
-    margin-left: -515%;
-}
-
-.right8{
-    margin-left: 500%;
-}
-
-.right9{
-    margin-left: 700%;
-}
-
-.right10{
-    margin-left: 900%;
-}
-
-.right11{
-    margin-left: 1100%;
-}
-
-.right12{
-    margin-left: 1300%;
-}
-
-.right13{
-    margin-left: 1500%;
-}
-
-.indcol{
-    margin-top: 35px;
-    margin-right: 8px;
-    margin-left: 5px;
-}
-
-.indrow{
-    margin-left: 67px;
-    margin-bottom: 70px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow2{
-    margin-left: 170px;
-    margin-bottom: -80px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow3{
-    margin-left: 48px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow4{
-    margin-left: 88px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow5{
-    margin-left: 89px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow6{
-    margin-left: 94px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow7{
-    margin-left: 94px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow8{
-    margin-left: 87px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow9{
-    margin-left: 91px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow10{
-    margin-left: 87px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow11{
-    margin-left: 82px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow12{
-    margin-left: 82px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow13{
-    margin-left: 1140px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow14{
-    margin-left: 83px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow15{
-    margin-left: 80px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow16{
-    margin-left: 83px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow17{
-    margin-left: 82px;
-    margin-top:  60px;
-    font-family: roboto;
-    font-weight: 300;
-}
-
-.indrow18{
-    margin-left: 83px;
-    margin-top:  -35px;
-    font-family: roboto;
-    font-weight: 300;
 }
 
 .legenda{
